@@ -1,0 +1,17 @@
+/home/skywoodsz/tools/clion-2021.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - Unix Makefiles" /home/skywoodsz/capital_ws/src/visul_tracker/cpp_src
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - found
+-- Found Threads: TRUE  
+-- Found Boost: /usr/include (found version "1.58.0") found components: system thread regex serialization chrono date_time atomic 
+-- Boost_INCLUDE_DIRS = /usr/include.
+-- Boost_LIBRARIES = /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;-lpthread;/usr/lib/x86_64-linux-gnu/libboost_regex.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so.
+-- Boost_LIB_VERSION = 1_58.
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/skywoodsz/capital_ws/src/visul_tracker/cpp_src/cmake-build-debug
