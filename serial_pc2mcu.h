@@ -34,7 +34,7 @@ public:
 
 public:
     const unsigned char header[2] = {0x55,0x5A}; //报头
-    const unsigned char ender[1] = {0x0A};	//报尾
+    const unsigned char ender[1] = {0xAA};	//报尾
 
     // data send form; union use the same memory
     struct send_msg

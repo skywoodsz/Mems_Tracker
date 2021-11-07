@@ -35,6 +35,7 @@ bool Serial_PC2MCU::init(const string port, const int baud)
     sp->set_option(serial_port::stop_bits(serial_port::stop_bits::one), ec);//一个停止位
     sp->set_option(serial_port::character_size(8), ec);//字长
 
+    std::cout<<"serial_port add good!"<<std::endl;
     return true;
 }
 
@@ -64,6 +65,6 @@ bool Serial_PC2MCU::send_data(int bx, int by, int lx, int ly)
     }
     //报尾
     buf[18] = ender[0];
-    write(*sp,buffer(buf), ec);
+    write(*sp,buffer(buf, 19), ec);
     return true;
 }
